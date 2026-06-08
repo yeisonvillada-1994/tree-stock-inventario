@@ -97,24 +97,20 @@ java Main
 ## 📸 Capturas de Pantalla de Ejecución
 
 ### Pantalla 1: Menú Principal
-```
+
 <img src="Captura_menu.png" width="700">
-```
 
 ### Pantalla 2: Registrar Productos
-```
+
 <img src="Captura_pantalla_registro.png" width="700">
-```
 
 ### Pantalla 3: Mostrar Inventario (Recorrido Inorden)
-```
+
 <img src="Captura_pantalla_mostrar_inventario.png" width="700">
-```
 
 ### Pantalla 4: Buscar Producto
-```
+
 <img src="Captura_pantalla_buscar.png" width="700">
-```
 
 ---
 
