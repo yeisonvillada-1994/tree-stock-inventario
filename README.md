@@ -98,7 +98,7 @@ java Main
 
 ### Pantalla 1: Menú Principal
 ```
-(Captura_menu.png)
+![Menú Principal](Captura_menu.png)
 ```
 
 ### Pantalla 2: Registrar Productos
