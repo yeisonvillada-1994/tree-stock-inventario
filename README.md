@@ -98,22 +98,22 @@ java Main
 
 ### Pantalla 1: Menú Principal
 ```
-![Menú Principal](Captura_menu.png)
+<img src="Captura_menu.png" width="700">
 ```
 
 ### Pantalla 2: Registrar Productos
 ```
-Captura_pantalla_registro.png
+<img src="Captura_pantalla_registro.png" width="700">
 ```
 
 ### Pantalla 3: Mostrar Inventario (Recorrido Inorden)
 ```
-(Captura_pantalla_mostrar_inventario.png)
+<img src="Captura_pantalla_mostrar_inventario.png" width="700">
 ```
 
 ### Pantalla 4: Buscar Producto
 ```
-(Captura_pantalla_buscar.png)
+<img src="Captura_pantalla_buscar.png" width="700">
 ```
 
 ---
