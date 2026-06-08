@@ -2,50 +2,58 @@
 
 ## 📌 Objetivo
 
-Desarrollar una aplicación de consola en Java que implemente un **Árbol Binario de Búsqueda (BST - Binary Search Tree)** para gestionar un inventario de productos. El sistema permite registrar, buscar y listar productos de forma ordenada, demostrando el funcionamiento de estructuras de datos recursivas y punteros en árboles.
+Desarrollar una aplicación de consola en Java que implemente un **Árbol Binario de Búsqueda** para gestionar un inventario de productos. El sistema permite registrar, buscar y listar productos de manera ordenada, aplicando conceptos de **estructuras de datos, recursividad y manejo de referencias en árboles binarios**.
 
 ---
 
 ## 📋 Descripción del Proyecto
 
-**Tree-Stock** es un sistema de inventario que utiliza un árbol binario de búsqueda como estructura de datos principal. Los productos se organizan por ID, permitiendo búsquedas y recorridos eficientes.
+**Tree-Stock** es un sistema de inventario desarrollado en Java que utiliza un **Árbol Binario de Búsqueda (BST)** como estructura principal para almacenar productos organizados por ID.
 
-### Características principales:
-- ✅ **Inserción recursiva** de productos por ID
-- ✅ **Búsqueda** de productos por ID
-- ✅ **Recorrido inorden** para listar inventario ordenado
-- ✅ **Interfaz de menú interactivo** en consola
-- ✅ **Validación de entrada** y manejo de errores
+El programa permite:
+
+- ✅ Registrar productos  
+- ✅ Buscar productos por ID  
+- ✅ Mostrar el inventario ordenado mediante recorrido inorden  
+- ✅ Interactuar mediante un menú en consola  
+- ✅ Validar entradas del usuario  
 
 ---
 
 ## 🏗️ Estructura del Proyecto
 
-### Clases implementadas:
+El proyecto está compuesto por las siguientes clases:
 
-#### 1. **Producto.java** (El Nodo)
+### 📦 Producto.java
 Representa cada nodo del árbol binario.
-- **Atributos:**
-  - `int id`: Identificador único del producto
-  - `String nombre`: Nombre del producto
-  - `Producto izquierdo`: Puntero al nodo hijo izquierdo
-  - `Producto derecho`: Puntero al nodo hijo derecho
 
-#### 2. **ArbolInventario.java** (La Lógica)
-Implementa todas las operaciones del árbol binario de búsqueda.
-- **Métodos principales:**
-  - `insertar(int id, String nombre)`: Inserta un producto de forma recursiva
-  - `recorridoInorden()`: Lista todos los productos ordenados por ID
-  - `buscar(int id)`: Busca un producto por su ID
-  - `estaVacio()`: Verifica si el inventario está vacío
+**Atributos principales:**
+- `id`: identificador único del producto  
+- `nombre`: nombre del producto  
+- `izquierdo`: referencia al hijo izquierdo  
+- `derecho`: referencia al hijo derecho  
 
-#### 3. **Main.java** (La Interfaz)
-Presenta un menú interactivo para el usuario.
-- **Opciones del menú:**
-  - **1. Registrar Producto**: Solicita ID y nombre del producto
-  - **2. Mostrar Inventario**: Ejecuta recorrido inorden
-  - **3. Buscar Producto**: Busca un producto por ID
-  - **0. Salir**: Cierra la aplicación
+---
+
+### 🌲 ArbolInventario.java
+Contiene la lógica del árbol binario de búsqueda.
+
+**Funciones principales:**
+- Insertar productos  
+- Buscar productos por ID  
+- Mostrar productos ordenados (recorrido inorden)  
+- Verificar si el inventario está vacío  
+
+---
+
+### 🖥️ Main.java
+Contiene el menú interactivo del sistema.
+
+**Opciones disponibles:**
+1. Registrar producto  
+2. Mostrar inventario  
+3. Buscar producto  
+0. Salir  
 
 ---
 
@@ -147,27 +155,6 @@ Ingresa el ID del producto a buscar: 50
 
 ---
 
-## 🔑 Conceptos Clave Implementados
-
-### 1. **Árbol Binario de Búsqueda (BST)**
-- Estructura jerárquica con raíz, nodos internos y hojas
-- Propiedad: `izquierdo.id < padre.id < derecho.id`
-
-### 2. **Recursión**
-- **Inserción recursiva**: Recorre el árbol hasta encontrar la posición correcta
-- **Búsqueda recursiva**: Navega por el árbol comparando IDs
-- **Recorrido inorden recursivo**: Izquierda → Raíz → Derecha
-
-### 3. **Punteros (Referencias en Java)**
-- Cada nodo apunta a sus hijos: `Producto izquierdo` y `Producto derecho`
-- La raíz es la entrada al árbol: `Producto raiz`
-- Cuando un puntero es `null`, significa que no hay hijo en esa dirección
-
-### 4. **Complejidad**
-- **Inserción**: O(log n) en promedio, O(n) en peor caso
-- **Búsqueda**: O(log n) en promedio, O(n) en peor caso
-- **Recorrido inorden**: O(n)
-
 ---
 
 ## 📊 Ejemplo de Árbol
@@ -187,33 +174,6 @@ El árbol resultante es:
 
 ---
 
-## 🎯 Metodología de Desarrollo
-
-- **Herramientas**: VS Code + JDK de Eclipse Temurin
-- **Control de versiones**: Git con commits claros y descriptivos
-- **Estructura**: Código limpio y bien comentado
-- **Validación**: Manejo de excepciones y entrada del usuario
-
----
-
-## 📝 Commits Realizados
-
-```
-commit 1: Initial project structure and Producto.java class
-commit 2: ArbolInventario.java implementation with recursive methods
-commit 3: Main.java with interactive menu and complete functionality
-```
-
----
-
-## 📚 Referencias y Recursos
-
-- **Documentación oficial Java**: https://docs.oracle.com/javase/tutorial/
-- **Árbol Binario de Búsqueda**: Concepto fundamental de estructuras de datos
-- **Recursión en Java**: Pattern clave en operaciones de árboles
-
----
-
 ## 👨‍💻 Sustentación
 
 Para una explicación detallada de cómo funcionan los punteros en el árbol y la lógica recursiva, consulta el video de sustentación adjunto (máximo 3 minutos).
@@ -224,7 +184,7 @@ Para una explicación detallada de cómo funcionan los punteros en el árbol y l
 
 **Proyecto Final - Estructuras de Datos**  
 Sistema de Inventario Tree-Stock  
-Junio 2026
+
 
 ---
 
