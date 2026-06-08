@@ -135,7 +135,10 @@ El árbol resultante es:
 
 ## 👨‍💻 Sustentación
 
-Para una explicación detallada de cómo funcionan los punteros en el árbol y la lógica recursiva, consulta el video de sustentación adjunto (máximo 3 minutos).
+Enlace al video de explicación del proyecto:
+
+**Link del video:**  
+https://drive.google.com/file/d/1t5l_Pp7A0Si9DVndzlXJavk01yNUq-uc/view?usp=sharing
 
 ---
 
