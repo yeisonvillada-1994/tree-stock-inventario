@@ -2,7 +2,7 @@
 
 ## 📌 Objetivo
 
-Desarrollar una aplicación de consola en Java que implemente un **Árbol Binario de Búsqueda** para gestionar un inventario de productos. El sistema permite registrar, buscar y listar productos de manera ordenada, aplicando conceptos de **estructuras de datos, recursividad y manejo de referencias en árboles binarios**.
+Desarrollar una aplicación de consola en Java que implemente un **Árbol Binario de Búsqueda** para gestionar un inventario de productos. El sistema permite registrar, buscar y listar productos de manera ordenada, aplicando conceptos de estructuras de datos, recursividad y manejo de referencias en árboles binarios.
 
 ---
 
@@ -98,59 +98,22 @@ java Main
 
 ### Pantalla 1: Menú Principal
 ```
-╔════════════════════════════════════════════════════╗
-║    🌳 SISTEMA DE INVENTARIO TREE-STOCK 🌳       ║
-║       Árbol Binario de Búsqueda (BST)            ║
-╚════════════════════════════════════════════════════╝
-
-┌────────────────────────────────────────────────────┐
-│                    📋 MENÚ PRINCIPAL              │
-├────────────────────────────────────────────────────┤
-│  1. 🆕 Registrar Producto                          │
-│  2. 📋 Mostrar Inventario                          │
-│  3. 🔍 Buscar Producto                             │
-│  0. 🚪 Salir                                       │
-└────────────────────────────────────────────────────┘
+xxx
 ```
 
 ### Pantalla 2: Registrar Productos
 ```
-┌────────────────────────────────────────────────────┐
-│        ➕ REGISTRAR NUEVO PRODUCTO                 │
-└────────────────────────────────────────────────────┘
-
-Selecciona una opción: 1
-Ingresa el ID del producto (número entero): 50
-Ingresa el nombre del producto: Laptop
-✅ Producto registrado correctamente.
-
-[El usuario continúa registrando más productos...]
+xxxx
 ```
 
 ### Pantalla 3: Mostrar Inventario (Recorrido Inorden)
 ```
-═══════════════════════════════════════════════════
-          📦 INVENTARIO ORDENADO (INORDEN)
-═══════════════════════════════════════════════════
-  ✓ ID: 10 | Nombre: Monitor
-  ✓ ID: 25 | Nombre: Teclado
-  ✓ ID: 50 | Nombre: Laptop
-  ✓ ID: 75 | Nombre: Mouse
-  ✓ ID: 100 | Nombre: Webcam
-═══════════════════════════════════════════════════
+xxxx
 ```
 
 ### Pantalla 4: Buscar Producto
 ```
-┌────────────────────────────────────────────────────┐
-│         🔍 BUSCAR PRODUCTO POR ID                  │
-└────────────────────────────────────────────────────┘
-
-Selecciona una opción: 3
-Ingresa el ID del producto a buscar: 50
-
-✅ Producto encontrado:
-   ID: 50 | Nombre: Laptop
+xxxx
 ```
 
 ---
