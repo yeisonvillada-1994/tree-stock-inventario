@@ -144,8 +144,6 @@ Para una explicación detallada de cómo funcionan los punteros en el árbol y l
 **Proyecto Final - Estructuras de Datos**  
 Sistema de Inventario Tree-Stock  
 
-## 👨‍💻 Autor
-
 **Nombre:** Yeison Villada Sánchez
 
 
